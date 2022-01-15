@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up page</title>
+    <link href="website.css" rel="stylesheet">
+    <style>
+        @font-face {
+          font-family: "prata", serif;
+          src: url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+       }
+       
+       * {
+          font-family: "prata", serif;
+       }
+    </style>
+</head>
+<body>
+    <section id="signup">
+
+        <div id="fname">
+
+            <label  for="firstname" ">First name</label>
+            <input type="text" placeholder="Enter your first name" name="firstname" id="firstname" required>
+        </div>
+        
+        <div id="lname">
+            <label for="lastname">Last name</label>
+            <input type="text" placeholder="Enter your last name" name="lastname" id="lastname" required>
+
+        </div>
+
+        <div id="email">
+
+            <label for="emailid">Email</label>
+            <input type="email" placeholder="Enter your email" name="email" id="emailid" required>
+
+        </div>
+
+        <div id="interest">
+
+            <label for="urinterest">Your interest</label>
+            <select name="ineterest" id="urinterest">
+                <option value="ps">Photoshop</option>  
+                <option value="ai">Illustrator</option> 
+                <option value="ui">UI</option>
+            </select>
+
+        </div> 
+
+        <div id="submit2">
+
+            <button type="submit" >Sign In</button>
+        
+        </div>
+
+
+    </section>
+</body>
+</html>
